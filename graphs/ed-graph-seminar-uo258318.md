@@ -1,7 +1,7 @@
 ---
 title: "Data Structures: Graph's Seminar Report"
 author: Hugo Fonseca Díaz (UO258318)
-email: UO270835@uniovi.es
+email: UO258318@uniovi.es
 lang: "en"
 ---
 # Exercise 1
