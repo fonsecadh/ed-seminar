@@ -26,7 +26,7 @@ We apply **Dijkstra's algorithm** to calculate the minimum cost path from node C
 
 ## Path from C to D
 
-There exists a path between node *C* and node *D*, because we can see that in the *D* vector that the cost of going from *C* to *D* is not infinite.
+There exists a path between node *C* and node *D*, because we can see that in the *D* vector the cost of going from *C* to *D* **is not infinite**.
 
 The **cost** of going from *C* to *D* is **6**, and the **minimum-cost path** will be **C->B->D**. 
 
@@ -34,7 +34,7 @@ For getting the path we need to check the *P* vector, which indicates the previo
 
 ## Path from C to E
 
-There exists a path between node *C* and node *E*, because we can observe that in the *D* vector that the cost of going from *C* to *E* is not infinite.
+There exists a path between node *C* and node *E*, because we can observe that in the *D* vector the cost of going from *C* to *E* **is not infinite**.
 
 The **cost** of going from *C* to *E* is **6** as well, and the **minimum-cost path** will be **C->H->G->F->E**.
 
@@ -69,7 +69,7 @@ There does not exist a path between *C* and *A* because we see in the *D* vector
 
 ## Path from C to D
 
-There exists a path from *C* to *D* because we check in the *D* vector that the cost of going from *C* to *D* **is not infinite**.
+There exists a path from *C* to *D* because we have checked in the *D* vector that the cost of going from *C* to *D* **is not infinite**.
 
 The **cost** of going from *C* to *D* is **7**.
 
@@ -161,11 +161,11 @@ The minimum-cost path will be **F->C**, because in the *P* matrix we observe tha
 
 ## Drain nodes
 
-There is a drain node in the graph, and that is **node A**, because it cannot be accessed from any other node in the graph, as seen in the *A* matrix.
+There is a drain node in the graph, and that is **node D**, because it cannot travel to any other node in the graph but can be accessed by them, as seen in the *A* matrix.
 
 ## Source nodes
 
-There is a source node in the graph, and that is **node D**, because it cannot travel to any other node in the graph, as seen in the *A* matrix.
+There is a source node in the graph, and that is **node A**, because it cannot be accessed from any other node in the graph but can travel to them, as seen in the *A* matrix.
 
 
 
