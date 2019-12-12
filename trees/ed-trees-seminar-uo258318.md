@@ -148,7 +148,7 @@ We now remove element 60. See **Figure 20**.
 
 ## Removing element 45
 
-After that,  we remove element 45. See **Figure 21**.
+After that, we remove element 45. See **Figure 21**.
 
 ![Exercise 6. Removing element 45](multimedia/trees-6-5.png){height=350px}
 
