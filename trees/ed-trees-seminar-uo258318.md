@@ -130,13 +130,13 @@ We first remove element 78. 76 takes its place. See **Figure 17**.
 
 ## Removing element 79
 
-We then remove element 79. We transfer elements from the right sibling leaf. See **Figure 18**.
+We then remove element 79. We transfer elements from the right leaf sibling. See **Figure 18**.
 
 ![Exercise 6. Removing element 79](multimedia/trees-6-2.png){height=350px}
 
 ## Removing element 82
 
-Now we remove element 82. We transfer elements from the left sibling leaf. See **Figure 19**.
+Now we remove element 82. We transfer elements from the left leaf sibling. See **Figure 19**.
 
 ![Exercise 6. Removing element 82](multimedia/trees-6-3.png){height=350px}
 
