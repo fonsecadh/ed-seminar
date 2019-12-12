@@ -24,25 +24,25 @@ We first remove node 31. See **Figure 2**.
 
 ## Removing node 56
 
-We then remove node 56. See **Figure 3**.
+We then remove node 56. Now 74 becomes the left child of 84. See **Figure 3**.
 
 ![Exercise 2. Removing node 56](multimedia/trees-2-2.png){height=350px}
 
 ## Removing node 84
 
-Now we remove node 84. See **Figure 4**.
+Now we remove node 84. 81 takes the place of 84. See **Figure 4**.
 
 ![Exercise 2. Removing node 84](multimedia/trees-2-3.png){height=350px}
 
 ## Removing node 26
 
-We now remove node 26. See **Figure 5**.
+We now remove node 26. 14 takes the place of 26. See **Figure 5**.
 
 ![Exercise 2. Removing node 26](multimedia/trees-2-4.png){height=350px}
 
 ## Removing node 39
 
-Lastly we remove node 39. See **Figure 6**.
+Lastly we remove node 39. 42 takes the place of 39. See **Figure 6**.
 
 ![Exercise 2. Removing node 39](multimedia/trees-2-5.png){height=350px}
 
@@ -54,19 +54,19 @@ In this exercise we are asked to add the nodes 10, 20, 60, 30, 65, 40, 15, 14, 1
 
 ## Adding nodes 10, 20, 60
 
-We first add nodes 10, 20 and 60. See **Figure 7**.
+We first add nodes 10, 20 and 60. We need to perform a single right rotation. See **Figure 7**.
 
 ![Exercise 3. Adding nodes 10, 20 and 60](multimedia/trees-3-1.png){height=350px}
 
 ## Adding nodes 30, 65, 40
 
-We then add nodes 30, 65 and 40. See **Figure 8**.
+We then add nodes 30, 65 and 40. We perform a double right rotation and 30 becomes the new root. See **Figure 8**.
 
 ![Exercise 3. Adding nodes 30, 65 and 40](multimedia/trees-3-2.png){height=350px}
 
 ## Adding nodes 15, 14, 12, 11
 
-Lastly we add nodes 15, 14, 12 and 11. See **Figure 9**.
+Lastly we add nodes 15, 14, 12 and 11. We perform a double left rotation and 14 becomes the left child of 30. See **Figure 9**.
 
 ![Exercise 3. Adding nodes 15, 14, 12 and 11](multimedia/trees-3-3.png){height=350px}
 
@@ -84,25 +84,25 @@ We first remove node 46. See **Figure 10**.
 
 ## Removing node 56
 
-We then remove node 56. See **Figure 11**.
+We then remove node 56. We perform a double left rotation and 55 takes the place of 56. See **Figure 11**.
 
 ![Exercise 4. Removing node 56](multimedia/trees-4-2.png){height=350px}
 
 ## Removing node 87
 
-Now we remove node 87. See **Figure 12**.
+Now we remove node 87. We perform a double left rotation. See **Figure 12**.
 
 ![Exercise 4. Removing node 87](multimedia/trees-4-3.png){height=350px}
 
 ## Removing node 74
 
-We now remove node 74. See **Figure 13**.
+We now remove node 74. 55 takes its place. See **Figure 13**.
 
 ![Exercise 4. Removing node 74](multimedia/trees-4-4.png){height=350px}
 
 ## Removing node 55
 
-Lastly we remove node 55. See **Figure 14**.
+Lastly we remove node 55. We perform a double right rotation. See **Figure 14**.
 
 ![Exercise 4. Removing node 55](multimedia/trees-4-5.png){height=350px}
 
@@ -124,19 +124,19 @@ In the last exercise we are requested to delete the set of elements 78, 79, 82, 
 
 ## Removing element 78
 
-We first remove element 78. See **Figure 17**.
+We first remove element 78. 76 takes its place. See **Figure 17**.
 
 ![Exercise 6. Removing element 78](multimedia/trees-6-1.png){height=350px}
 
 ## Removing element 79
 
-We then remove element 79. See **Figure 18**.
+We then remove element 79. We transfer elements from the right sibling leaf. See **Figure 18**.
 
 ![Exercise 6. Removing element 79](multimedia/trees-6-2.png){height=350px}
 
 ## Removing element 82
 
-Now we remove element 82. See **Figure 19**.
+Now we remove element 82. We transfer elements from the left sibling leaf. See **Figure 19**.
 
 ![Exercise 6. Removing element 82](multimedia/trees-6-3.png){height=350px}
 
@@ -148,13 +148,13 @@ We now remove element 60. See **Figure 20**.
 
 ## Removing element 45
 
-After that, we remove element 45. See **Figure 21**.
+After that, we remove element 45. We merge both branches because of underflow. See **Figure 21**.
 
 ![Exercise 6. Removing element 45](multimedia/trees-6-5.png){height=350px}
 
 ## Removing element 74
 
-Lastly we remove element 74. See **Figure 22**.
+Lastly we remove element 74. We also merge both branches due to underflow. See **Figure 22**.
 
 ![Exercise 6. Removing element 74](multimedia/trees-6-6.png){height=350px}
 
